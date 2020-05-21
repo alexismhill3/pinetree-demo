@@ -4,6 +4,10 @@ Scripts and other misc files I used in my Pinetree demo for the Barrick lab.
 
 The `phage_model.py` script was sourced from the actual Pinetree [repo](https://github.com/clauswilke/pinetree), and `simple_plasmid.py` is a modified version of the pinetree tutorial code from the docs [site](https://pinetree.readthedocs.io/en/latest/intro.html).
 
+To install the python packages required to run these scripts, run (from the main project directory):
+
+`pip3 install -r requirements.txt`
+
 ### References:
 
 B. R. Jack, D. R. Boutz, M. L. Paff, B. L. Smith, C. O. Wilke (2019). Transcript degradation and codon usage regulate gene expression in a lytic phage. Virus Evol. 5:vez055.
