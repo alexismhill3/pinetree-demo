@@ -152,7 +152,7 @@ def normalize_weights(weights):
 def main():
     sim = pt.Model(cell_volume=CELL_VOLUME)
 
-    record = SeqIO.read("T7_genome.gb", "genbank")
+    record = SeqIO.read("../data/T7_genome.gb", "genbank")
     genome_length = len(record.seq)
     phage = pt.Genome(name="phage", length=genome_length)
 
